@@ -1,0 +1,46 @@
+.user-display-container {
+    padding: 20px;
+    background-color: #c1a0a0;
+    /* Light gray background color */
+}
+
+.user-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.user-card {
+    border: 2px solid #007bff;
+    /* Blue border */
+    border-radius: 8px;
+    padding: 16px;
+    width: calc(33.33% - 40px);
+    /* Adjust width for responsive layout */
+    box-sizing: border-box;
+    background-color: #fff;
+    /* White background */
+}
+
+.add-user-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    /* Green button background color */
+    color: #fff;
+    /* White button text color */
+    cursor: pointer;
+}
+
+.add-user-button:hover {
+    background-color: #218838;
+    /* Darker green on hover */
+}
+
+.h1{
+    color:black;
+    font-weight: bolder;
+}
